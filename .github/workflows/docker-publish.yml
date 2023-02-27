@@ -12,7 +12,7 @@ jobs:
       - uses: ilteoood/docker_buildx@master
         name: Build & push Docker image
         with:
-          publish: true
+          publish: false
           dockerFile: Dockerfile
           imageName: miclon/chatgpt
           tag: latest
