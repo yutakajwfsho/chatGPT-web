@@ -1,5 +1,5 @@
-#FROM registry.cn-hangzhou.aliyuncs.com/miclon/py-nodejs:latest
-FROM registry.cn-hangzhou.aliyuncs.com/yutakasho/py-nodejs:latest
+FROM registry.cn-hangzhou.aliyuncs.com/miclon/py-nodejs:latest
+#FROM registry.cn-hangzhou.aliyuncs.com/yutakasho/py-nodejs:latest
 
 WORKDIR /app
 # Install app dependencies
