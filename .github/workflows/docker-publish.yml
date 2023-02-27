@@ -12,7 +12,7 @@ jobs:
       - uses: ilteoood/docker_buildx@master
         name: Build & push Docker image
         with:
-          publish: false
+          publish: true
           dockerFile: Dockerfile
           imageName: yutakasho/chatgpt
           tag: latest
